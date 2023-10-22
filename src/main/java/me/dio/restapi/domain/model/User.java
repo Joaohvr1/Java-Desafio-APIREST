@@ -59,4 +59,12 @@ public class User {
     public void setNews(List<News> news) {
         this.news = news;
     }
+
+    public Card getCard() {
+        return card;
+    }
+
+    public void setCard(Card card) {
+        this.card = card;
+    }
 }
